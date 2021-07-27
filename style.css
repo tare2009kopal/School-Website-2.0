@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-size: 80px;
+}
+
+.images {
+    height: 300px;
+    width: 350px;
+}
+
+.menu {
+    font-size: 30px;
+    color: darkslateblue;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    background: white;
+}
+
+.links {
+    float: right;
+    list-style: none;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    font-size: 35px;
+    color: rebeccapurple;
+}
+#home{
+    color: white;
+}
+.line{
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+    height: 6px;
+}
+.image-responsive{
+    width: 350px;
+    height: 300px;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
