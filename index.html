@@ -1,191 +1,162 @@
 <html>
+
 <head>
-    <title>Photo Gallery</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>School Website</title>
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#grid">Grid Gallery</a></li>
-        <li class="links"><a href="#slide">Sliding Gallery</a></li>
-    </ul>
-    <section id="home">
-        <div style="background-image: url(https://previews.123rf.com/images/norikazu/norikazu1209/norikazu120900014/15097019-beautiful-flower-field-of-tulip-spring-japan.jpg);">
-        <br>
-        <h1>
-            Photo Gallery
-        </h1>
-            <br>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            </button>
+            <a class="navbar-brand" href="https://tare2009kopal.github.io/Favorite-Hobby-4.0/#Home" target="_blank">
+                Kopal Tare
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#school_name">School Name</a></li>
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#contact_us">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="school_name">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop()" onmouseout="this.start()">
+                    *** Feel free to ask queries on https://fms.dublinusd.org ***
+                </marquee>
+            </div>
+            <iframe id="school_video" width="560" height="315" src="https://www.youtube.com/embed/o_gdS-lX13U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
-    <section id="grid">
+    <br>
+    <br>
+    <section id="campus_life">
+        <span>
+            <h2 class="page-header text-capitalize">Campus Life</h2>
+            <span>
+                <div class="travel_mainDiv col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <img class="img-responsive" src="https://www.washoeschools.net/cms/lib/NV01912265/Centricity/Domain/443/library%20final%20pic.png">
+                    <h4 class="text-capitalize"><kbd>School Library</kbd></h4>
+                    <hr>
+                    <h5 class="text-capitalize text-success text-left">Fallon School Library</h5>
+                    <p class="text-capitalize text-muted text-left">This year, the fallon library put on a fundraiser and got hundreds of new books</p>
+                </div>
+            </span>
+            <span>
+                <div class="travel_mainDiv col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <img class="img-responsive" src="https://www.dublin.ca.gov/ImageRepository/Document?documentID=18304">
+                    <h4 class="text-capitalize"><kbd>School Sports Ground</kbd></h4>
+                    <hr>
+                    <h5 class="text-capitalize text-success text-left">Fallon School Library</h5>
+                    <p class="text-capitalize text-muted text-left">This year, the fallon library put on a fundraiser and got hundreds of new books</p>
+                </div>
+            </span>
+            <span></span>
+            <div class="travel_mainDiv col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="https://www.fallonpfc.org/uploads/8/5/9/3/85931772/fallon-middle-school_orig.jpg">
+                <h4 class="text-capitalize"><kbd>Multipurpose Room</kbd></h4>
+                <hr>
+                <h5 class="text-capitalize text-success text-left">Fallon School MPR</h5>
+                <p class="text-capitalize text-muted text-left">The Multipurpose Room is where we have assemblies, where we eat lunch, and where we host big events</p>
+            </div>
+            <div class="travel_mainDiv col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="http://playfoursquare.s3.amazonaws.com/pix/39775940_SM9Xy40sYVAmJsT_l86nt1W2BcmGGzXUCp9JIVSFVZg.jpg">
+                <h4 class="text-capitalize"><kbd>Fallon Classrooms</kbd></h4>
+                <hr>
+                <h5 class="text-capitalize text-success text-left">Fallon School Classrooms</h5>
+                <p class="text-capitalize text-muted text-left">Here is just one of the many classrooms here at Fallon Middle School. They teach many subjects at fallon including math, PE, science, history, and english</p>
+            </div>
+        </span>
         <br>
-        <h1>
-            Grid Gallery
-        </h1>
-        <div class="line"></div>
         <br>
-        <span>
-            <img src="https://newsmeter.in/h-upload/2021/01/19/291251-beautiful-sakura.webp" class="images">
-        </span>
-        <span>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2mL-WS0K90Lbmhg3xOdqNPqTuCdFtaNy40A&usqp=CAU" class="images">
-        </span>
-        <span>
-            <img src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/cfca340a-9c53-4713-b4e0-b17d6648b8ac-shutterstock_1164740191.jpg" class="images">
-        </span>
-        <span>
-            <img src="https://cdn.wallpapersafari.com/37/57/bJHrxz.jpg" class="images">
-        </span>
-        <span>
-            <img src="https://i0.wp.com/www.concrete-online.co.uk/wp-content/uploads/2017/11/fall-autumn-red-season-2.jpg?fit=1920%2C1280&ssl=1" class="images">
-        </span>
-        <span>
-            <img src="https://previews.123rf.com/images/chabkc/chabkc1803/chabkc180300086/98894998-scenic-of-nature-beautiful-waterfall-with-sunlight-in-autumn-forest-at-erawan-national-park-thailand.jpg" class="images">
-            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-907914534-1590070809.jpg" class="images">
-            <img src="https://images.all-free-download.com/images/graphiclarge/beautiful_nature_landscape_05_hd_picture_166223.jpg" class="images">
-            <img src="https://i.pinimg.com/750x/ca/e3/23/cae3230fc96f31f8da82fbc37ebe7237.jpg" class="images">
-            <img src="https://i.ytimg.com/vi/L2WgJgAULo8/maxresdefault.jpg" class="images">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/61RRGdoutsL._AC_SL1200_.jpg" class="images">
-            <img src="https://i.ytimg.com/vi/ScW0eteiQXQ/maxresdefault.jpg" class="images">
-        </span>
     </section>
-    <section id="slide">
-<br>
-        <h1>
-        Sliding Gallery
-        </h1>
-        <div class="line"></div>
+    <br>
+    <br>
+    <section id="achievements">
+    <h2 class="page-header text-capitalize">Achievements</h2>
+         <div class="container">
+        <div class="bg-primary achievements-head" data-toggle="collapse" data-target="#achievement1">
+            <i class="fa fa-sort-desc">Got 16th Place at the National Spelling Bee</i>
+        </div>
+        <div id="achievement1" class="collapse">
+            <div class="col-lg-3 col-lg-3 col-sm-3 col-xs-12">
+                <img src="https://live.staticflickr.com/1737/41532482155_fc19ba4a82_z.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-lg-9 col-sm-9 col-xs-12 achievements_text text-success">
+                <h4>We got 16th Place at the National Spelling Bee</h4>
+            </div>
+             <div class="col-lg-9 col-lg-9 col-sm-9 col-xs-12 achievements_text ">
+                <p>Anisha Rao from fallon middle school won the school bee, district bee, regional bee, and state bee to compete at the national spelling bee all the way at Washington DC where she was up against 200 spellers from around the nation.  She even made it all the way to the final round and got 16th place!  What an achievement!</p>
+            </div>
+        </div>
+    </div>
         <br>
-                <div id="myCarousel" class="carousel slide">
-            <div class="carousel-inner">
-            <div class="item active">
-            <center>
-<img class="image-responsive" src="https://newsmeter.in/h-upload/2021/01/19/291251-beautiful-sakura.webp">
-            <div class="carousel-content">
-            <p>
-            Hibiscus Flowers
-            </p>
+        <div class="container">
+         <div class="bg-primary achievements-head" data-toggle="collapse" data-target="#achievement2">
+            <i class="fa fa-sort-desc">Won statewide science fair</i>
+        </div>
+        <div id="achievement2" class="collapse">
+            <div class="col-lg-3 col-lg-3 col-sm-3 col-xs-12">
+                <img id="science" src="https://www.wayneschools.com/cms/lib/NJ02210894/Centricity/ModuleInstance/9432/large/pickerimage.jpg">
             </div>
-            </center>
+            <br>
+            <span id="words">
+            <div class="col-lg-9 col-lg-9 col-sm-9 col-xs-12 achievements_text text-success">
+                <h4>We got first place in the statewide science fair</h4>
             </div>
-            <div class="item">
-            <center>
-           <img class="image-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2mL-WS0K90Lbmhg3xOdqNPqTuCdFtaNy40A&usqp=CAU">
-            <div class="carousel-content">
-            <p>
-                Nighttime Snowfall
-            </p>
+             <div class="col-lg-9 col-lg-9 col-sm-9 col-xs-12 achievements_text ">
+                <p>Anisha Rao from fallon middle school won the school bee, district bee, regional bee, and state bee to compete at the national spelling bee all the way at Washington DC where she was up against 200 spellers from around the nation.  She even made it all the way to the final round and got 16th place!  What an achievement!</p>
             </div>
-            </center>
-            </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/cfca340a-9c53-4713-b4e0-b17d6648b8ac-shutterstock_1164740191.jpg">
-            <div class="carousel-content">
-            <p>
-            Aurora
-            </p>
-            </div>
-            </center>
-            </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://cdn.wallpapersafari.com/37/57/bJHrxz.jpg">
-            <div class="carousel-content">
-            <p>
-            Springtime Trees
-            </p>
-            </div>
-            </center>
-            </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://i0.wp.com/www.concrete-online.co.uk/wp-content/uploads/2017/11/fall-autumn-red-season-2.jpg?fit=1920%2C1280&ssl=1">
-            <div class="carousel-content">
-            <p>
-            Autumn Trees
-            </p>
-            </div>
-            </center>
-            </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://previews.123rf.com/images/chabkc/chabkc1803/chabkc180300086/98894998-scenic-of-nature-beautiful-waterfall-with-sunlight-in-autumn-forest-at-erawan-national-park-thailand.jpg">
-            <div class="carousel-content">
-            <p>
-            Waterfall
-            </p>
-            </div>
-            </center>
-            </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-907914534-1590070809.jpg">
-            <div class="carousel-content">
-            <p>
-            Ocean Sunset
-            </p>
-            </div>
-            </center>
-            </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://images.all-free-download.com/images/graphiclarge/beautiful_nature_landscape_05_hd_picture_166223.jpg">
-            <div class="carousel-content">
-            <p>
-            Small Waterfall
-            </p>
-            </div>
-            </center>
-            </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://i.pinimg.com/750x/ca/e3/23/cae3230fc96f31f8da82fbc37ebe7237.jpg">
-            <div class="carousel-content">
-            <p>
-            Nighttime Nature Landscape
-            </p>
-            </div>
-            </center>
-            </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://i.ytimg.com/vi/L2WgJgAULo8/maxresdefault.jpg">
-            <div class="carousel-content">
-            <p>
-            Forest Sunset
-            </p>
+                </span>
+        </div>
+        </div>
+        <br>
+    </section>
+    <section id="Contact us">
+        <div class="container page-header">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <h2 class="text-capitalize page-header text-left">Contact Us</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.201570382511!2d-121.86826168519221!3d37.714946223373396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808feed23808832d%3A0xd62084c41f8d44fe!2sFallon%20Middle%20School!5e0!3m2!1sen!2sus!4v1626463993955!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <br>
+                <br>
+                <div id="details">
+                    <img src="https://pleasantonweekly.com/news/photos/2020/april/27/21361_full.jpg">
+                    <h3>Principal Name: </h3>
+                    <h4>Mr.Ken Rocha</h4>
+                    <div class="contact_1">
+                        <a href="mailto:school@gmail.com?Subject-Hi">
+                            <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                        </a>
+                        <a href="#">
+                            <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolID</h5>
+                        </a>
+                        <a href="#">
+                            <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9916004864</h5>
+                        </a>
+                    </div>
                 </div>
-            </center>
-                </div>
-            <div class="item">
-            <center>
-            <img class="image-responsive" src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80">
-            <div class="carousel-content">
-            <p>
-            Clouds
-            </p>
             </div>
-                </center>
-                </div>
-                <div class="item">
-            <center>
-            <img class="image-responsive" src="https://i.ytimg.com/vi/ScW0eteiQXQ/maxresdefault.jpg">
-            <div class="carousel-content">
-            <p>
-            Flower Field
-            </p>
-            </div>
-            </center>
-                </div>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> 
-            </a>
-         </div> 
-         </div>
+        </div>
     </section>
 </body></html>
