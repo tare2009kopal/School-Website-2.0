@@ -25,10 +25,6 @@ marquee {
     border-radius: 10px;
     margin-bottom: 15px;
 }
-.achievements_head i{
+.achienvements_head i{
     float: right;
-}
-#science{
-    width: 400px;
-    height: 280px;
 }
